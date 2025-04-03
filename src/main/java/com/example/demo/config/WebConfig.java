@@ -16,7 +16,7 @@ public class WebConfig {
                         .allowedOrigins("https://my-react-app-pi-ecru.vercel.app") // Allow Vercel frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
-                        .allowCredentials(true);
+                        .allowCredentials(false);
             }
         };
     }
