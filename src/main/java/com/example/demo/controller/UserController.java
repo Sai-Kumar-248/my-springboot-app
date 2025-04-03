@@ -15,7 +15,7 @@ import com.example.demo.entity.User;
 
 /*import com.example.demo.repoi.UserRepository;
 */
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/users")
 public class UserController {
