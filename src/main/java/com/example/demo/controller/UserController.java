@@ -28,7 +28,7 @@ public class UserController {
     	List<User> usersList = new ArrayList<User>();
     	User user = new User();
     	user.setId((long) 1);
-    	user.setName("sai");
+    	user.setName("saik");
     	user.setEmail("sai@gmail.com");
     	usersList.add(user);
     	
