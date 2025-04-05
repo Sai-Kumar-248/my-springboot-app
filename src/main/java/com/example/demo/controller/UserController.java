@@ -35,6 +35,9 @@ public class UserController {
 
 	@PostMapping
 	public User createUser(@RequestBody User user) {
+		user.setId((long) 1);
+		user.setName("saikumar");
+		user.setEmail("sai@gmail.com");
 		return userRepository.save(user);
 	}
 
